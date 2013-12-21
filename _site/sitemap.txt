@@ -1,0 +1,8 @@
+
+/sitemap.txt
+/atom.xml
+/feed.xml
+/sitemap.xml
+/archive/index.html
+/index.html
+/about/

@@ -1,0 +1,41 @@
+
+title : Girlup Rwanda
+description: A blog for Girlup Rwanda
+disqus_shortname: girluprwanda.github.com
+url: http://localhost:4000
+owner :
+  name : Girlup Rwanda
+  email : rwandaforgirls@gmail.com
+  bio:    "Uplifting Rwanda Girls!"
+  twitter : gprwanda
+  facebook : gprwanda
+
+background: ps_neutral.png
+
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:   
+
+timezone:  GMT/UTC + 2
+future: true
+markdown: kramdown
+
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
