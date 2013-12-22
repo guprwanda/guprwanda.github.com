@@ -40,43 +40,66 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
 prose:
-  rooturl: '_posts'
-  siteurl: 'http://guprwanda.github.io'
-  media: 'images'
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-          type: "text"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: ""
-          placeholder: "Trunk Botterson"
-          type: "text"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Post Category"
-          placeholder: "Create or choose"
-          alterable: true
-      - name: "comments"
-        field:
-          element: checkbox
-          label: "Comments"
-          value: "true"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          alterable: true
-            
+   rooturl: '_posts'
+   siteurl: 'http://guprwanda.github.io'
+   media: 'images'
+   metadata:
+       _posts:
+    - name: "layout"
+     field:
+         element: "hidden"
+         value: "post"
+
+     - name: "title"
+     field: 
+         element: "text"
+         label: "Title"
+         value: ""
+         type: "text"
+         placeholder: "Enter the post title Here"
+
+     - name: "description"
+      field:
+         element: "text"
+         label: "Description"
+         value:  ""
+         placeholder: "Enter a short description for the post here"
+         type: "text"
+
+    - name: "modified"
+     field:
+         element: "text"
+         label: "Date modified"
+         value: ""
+         type: "string"
+
+    - name: "tags"
+     field:
+         element: "multiselect"
+         label: "Add Tags"
+         placeholder: "Choose Tags"
+         alterable: true
+
+    - name: "image"
+        - name : "feature"
+       field: 
+           element: "text"
+           label: "image"
+           value: ""
+           type: "text"
+
+    - name: "comments"
+        field: 
+           element: checkbox
+           label: "comments"
+           value: true
+
+     - name: "share"
+         field:
+           element: checkbox
+           label: "Share"
+           value: true
+
+
+
+         
