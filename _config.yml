@@ -42,30 +42,51 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://guprwanda.github.io'
-  
-  media: 'media'
+  siteurl: 'http://guprwanda.github.com'
+  media: 'images'
   metadata:
-    _posts:
+    source/_posts:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
+          value: "post"
+      - name: "title"
         field:
           element: "text"
-          label: "Permalink"
+          label: "title"
           value: ""
-
-
+          type: "text"
+      - name: "author"
+        field:
+          element: "text"
+          label: "description"
+          value: ""
+          placeholder: "input the decription"
+          type: "text"
+      - name: "categories"
+        field:
+          element: "string"
+          label: "modified"
+          placeholder: "Add the date"
+          type: "string"
+         
+      - name: "comments"
+        field:
+          element: "text"
+          label: "Comments"
+          value: "true"
+      - name: "tags"
+        field:
+          element: "text"
+          label: "tags"
+          placeholder: "Choose Tags"
+          type: "text"
+          
+          
+      - name: "image"
+      field:
+            element: "text"
+            label: "image"
+            placeholder: "feature: abstract-6.jpg"
+            type: "text"
+            
