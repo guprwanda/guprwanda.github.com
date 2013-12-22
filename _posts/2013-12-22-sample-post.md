@@ -6,11 +6,11 @@ modified: 2013-12-22
 tags: [sample post]
 
 image:
-  feature: abstract-6.jpg
+  feature: abstract-3.jpg
   
 comments: true
 share: true
 ---
 
 This is a sample post to test that the blog is working....
-this a girl up rwanda Blog to show their work
+this a girl up rwanda Blog to show their posts and what they do!
