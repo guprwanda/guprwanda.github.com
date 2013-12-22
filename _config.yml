@@ -44,7 +44,7 @@ prose:
   siteurl: 'http://guprwanda.github.io'
   media: 'images'
   metadata:
-    source/_posts:
+    _posts:
       - name: "layout"
         field:
           element: "hidden"
