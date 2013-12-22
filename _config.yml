@@ -39,10 +39,9 @@ kramdown:
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
-
 prose:
   rooturl: '_posts'
-  siteurl: 'http://guprwanda.github.com'
+  siteurl: 'http://guprwanda.github.io'
   media: 'images'
   metadata:
     source/_posts:
@@ -53,40 +52,31 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
           value: ""
           type: "text"
       - name: "author"
         field:
           element: "text"
-          label: "description"
+          label: "Author"
           value: ""
-          placeholder: "input the decription"
+          placeholder: "Trunk Botterson"
           type: "text"
       - name: "categories"
         field:
-          element: "string"
-          label: "modified"
-          placeholder: "Add the date"
-          type: "string"
-         
+          element: "multiselect"
+          label: "Post Category"
+          placeholder: "Create or choose"
+          alterable: true
       - name: "comments"
         field:
-          element: "text"
+          element: checkbox
           label: "Comments"
           value: "true"
       - name: "tags"
         field:
-          element: "text"
-          label: "tags"
+          element: "multiselect"
+          label: "Add Tags"
           placeholder: "Choose Tags"
-          type: "text"
-          
-          
-      - name: "image"
-      field:
-            element: "text"
-            label: "image"
-            placeholder: "feature: abstract-6.jpg"
-            type: "text"
+          alterable: true
             
