@@ -1,14 +1,14 @@
 title : Girlup Rwanda
 description: A blog for Girlup Rwanda
-<<<<<<< HEAD
+
 
 disqus_shortname: guprwanda
 
 
-=======
+
 disqus_shortname: guprwanda
->>>>>>> 32d18b35f5894a7c4bf3e8dafedc1ee4944d54e7
-url: http://guprwanda.github.io
+
+url: http://guprwanda.github.com
 owner :
   name : Girlup Rwanda
   email : rwandaforgirls@gmail.com
@@ -16,8 +16,7 @@ owner :
   twitter : gprwanda
   facebook : gprwanda
 
-background: ps_neutral.png
-
+background: triangular.png
 google_analytics:   
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
@@ -26,9 +25,9 @@ bing_verify:
 timezone:  GMT/UTC + 2
 future: true
 markdown: kramdown
-
+permalimk: /:categories/:title
 paginate: 5
-
+paginate_path: "page:num"
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -45,3 +44,5 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+

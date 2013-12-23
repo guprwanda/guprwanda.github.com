@@ -12,5 +12,5 @@ comments: true
 share: true
 ---
 
-his is a sample post to test that the blog is working....
+This is a sample post to test that the blog is working....
 this a girl up rwanda Blog to show their posts and what they do!

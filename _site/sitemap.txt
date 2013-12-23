@@ -6,3 +6,13 @@
 /archive/index.html
 /index.html
 /about/
+/page2/index.html
+
+/2013/12/23/sample-post-5.html
+/2013/12/23/sample-post-10.html
+/2013/12/23/sample-post.html
+/2013/12/23/bye.html
+/2013/12/22/sample-post-6.html
+/2013/12/22/sample-post-5.html
+/2013/12/22/sample-post-3.html
+/2013/12/22/sample-post-2.html

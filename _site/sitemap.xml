@@ -5,4 +5,36 @@
     </url>
     
     
+    <url>
+        <loc>http://localhost:4000/2013/12/23/sample-post-5.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2013/12/23/sample-post-10.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2013/12/23/sample-post.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2013/12/23/bye.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2013/12/22/sample-post-6.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2013/12/22/sample-post-5.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2013/12/22/sample-post-3.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2013/12/22/sample-post-2.html</loc>
+    </url>
+    
 </urlset>
